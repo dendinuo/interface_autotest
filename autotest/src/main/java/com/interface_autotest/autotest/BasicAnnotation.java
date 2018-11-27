@@ -8,11 +8,13 @@ public class BasicAnnotation
 	public void AfterMethod(){
 		System.out.println( "AfterMethod,这是在测试方法之后!" );
 	}
-	//标记此处是测试方法的一部分
+
+	//忽略此测试方法
 	@Test( enabled = false )
 	public void testCase1(){
 		System.out.println( "这是测试用例1!" );
 	}
+	
 	@Test( enabled=true )
 	public void testCase2(){
 		System.out.println( "这是测试用例2!" );

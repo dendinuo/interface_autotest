@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="suitename">
+	<test name="runAll">
+		<classes>
+			<class name="com.interface_autotest.autotest.groups.GroupOnClass1" />
+			<class name="com.interface_autotest.autotest.groups.GroupOnClass2" />	
+			<class name="com.interface_autotest.autotest.groups.GroupOnClass3" />
+		</classes>
+	</test>
+	
+	<test name="onlyRunGroupB">
+		<classes>
+			<groups>
+				<run>
+					<include name="Group B" />
+				</run>
+			</groups>
+			
+			<class name="com.interface_autotest.autotest.groups.GroupOnClass1" />
+			<class name="com.interface_autotest.autotest.groups.GroupOnClass2" />	
+			<class name="com.interface_autotest.autotest.groups.GroupOnClass3" />
+		</classes>
+	</test>
+</suite>
