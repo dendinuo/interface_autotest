@@ -4,7 +4,7 @@ import org.testng.annotations.*;
 
 public class BasicAnnotation 
 {
-	@org.testng.annotations.AfterMethod
+	@AfterMethod
 	public void AfterMethod(){
 		System.out.println( "AfterMethod,这是在测试方法之后!" );
 	}
@@ -60,9 +60,11 @@ public class BasicAnnotation
 	public void AfterSuite(){
 		System.out.println( "AfterSuite,测试套件!" );	
 	}	
+	
 	@AfterClass
 	public void AfterClass(){
 		System.out.println( "AftertClass,类运行之后的方法!" );	
+		
 	}		
 	@BeforeClass
 	public void BeforeClass(){

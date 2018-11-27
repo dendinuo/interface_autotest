@@ -1,29 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="paramSuite" duration-ms="74" started-at="2018-11-27T09:13:01Z" finished-at="2018-11-27T09:13:01Z">
+  <suite name="Default suite" duration-ms="55" started-at="2018-11-27T13:42:33Z" finished-at="2018-11-27T13:42:34Z">
     <groups>
     </groups>
-    <test name="param" duration-ms="74" started-at="2018-11-27T09:13:01Z" finished-at="2018-11-27T09:13:01Z">
-      <class name="com.interface_autotest.autotest.parameter.ParameterTest">
-        <test-method status="PASS" signature="paramTest1(java.lang.String, int)[pri:0, instance:com.interface_autotest.autotest.parameter.ParameterTest@396a51ab]" name="paramTest1" duration-ms="17" started-at="2018-11-27T09:13:01Z" finished-at="2018-11-27T09:13:01Z">
+    <test name="Default test" duration-ms="55" started-at="2018-11-27T13:42:33Z" finished-at="2018-11-27T13:42:34Z">
+      <class name="com.interface_autotest.autotest.parameter.DataProviderTest">
+        <test-method status="PASS" signature="Test1(java.lang.String, int)[pri:0, instance:com.interface_autotest.autotest.parameter.DataProviderTest@100fc185]" name="Test1" duration-ms="9" started-at="2018-11-27T13:42:34Z" data-provider="methodData" finished-at="2018-11-27T13:42:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[zhangsan]]>
+                <![CDATA[zhangsan4]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[18]]>
+                <![CDATA[37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test1(java.lang.String, int)[pri:0, instance:com.interface_autotest.autotest.parameter.DataProviderTest@100fc185]" name="Test1" duration-ms="1" started-at="2018-11-27T13:42:34Z" data-provider="methodData" finished-at="2018-11-27T13:42:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zhangsan5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[38]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test1(java.lang.String, int)[pri:0, instance:com.interface_autotest.autotest.parameter.DataProviderTest@100fc185]" name="Test1" duration-ms="1" started-at="2018-11-27T13:42:34Z" data-provider="methodData" finished-at="2018-11-27T13:42:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zhangsan6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[39]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test2(java.lang.String, int)[pri:0, instance:com.interface_autotest.autotest.parameter.DataProviderTest@100fc185]" name="Test2" duration-ms="0" started-at="2018-11-27T13:42:34Z" data-provider="methodData" finished-at="2018-11-27T13:42:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zhangsan7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[47]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="Test2(java.lang.String, int)[pri:0, instance:com.interface_autotest.autotest.parameter.DataProviderTest@100fc185]" name="Test2" duration-ms="1" started-at="2018-11-27T13:42:34Z" data-provider="methodData" finished-at="2018-11-27T13:42:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zhangsan8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[44]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="paramTest1(java.lang.String, int)[pri:0, instance:com.interface_autotest.autotest.parameter.DataProviderTest@100fc185]" name="paramTest1" duration-ms="0" started-at="2018-11-27T13:42:34Z" data-provider="data2" finished-at="2018-11-27T13:42:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[luojun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[27]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- paramTest1 -->
-      </class> <!-- com.interface_autotest.autotest.parameter.ParameterTest -->
-    </test> <!-- param -->
-  </suite> <!-- paramSuite -->
+      </class> <!-- com.interface_autotest.autotest.parameter.DataProviderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
