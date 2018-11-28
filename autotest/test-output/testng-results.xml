@@ -1,109 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="55" started-at="2018-11-27T13:42:33Z" finished-at="2018-11-27T13:42:34Z">
+  <suite name="Default suite" duration-ms="5081" started-at="2018-11-28T02:47:52Z" finished-at="2018-11-28T02:47:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="55" started-at="2018-11-27T13:42:33Z" finished-at="2018-11-27T13:42:34Z">
-      <class name="com.interface_autotest.autotest.parameter.DataProviderTest">
-        <test-method status="PASS" signature="Test1(java.lang.String, int)[pri:0, instance:com.interface_autotest.autotest.parameter.DataProviderTest@100fc185]" name="Test1" duration-ms="9" started-at="2018-11-27T13:42:34Z" data-provider="methodData" finished-at="2018-11-27T13:42:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[zhangsan4]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[37]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="5081" started-at="2018-11-28T02:47:52Z" finished-at="2018-11-28T02:47:57Z">
+      <class name="com.interface_autotest.autotest.TimeOutTest">
+        <test-method status="FAIL" signature="testFailed()[pri:0, instance:com.interface_autotest.autotest.TimeOutTest@6d00a15d]" name="testFailed" duration-ms="3019" started-at="2018-11-28T02:47:52Z" finished-at="2018-11-28T02:47:55Z">
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method TimeOutTest.testFailed()[pri:0, instance:com.interface_autotest.autotest.TimeOutTest@6d00a15d] should have thrown an exception of type class java.lang.RuntimeException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method TimeOutTest.testFailed()[pri:0, instance:com.interface_autotest.autotest.TimeOutTest@6d00a15d] should have thrown an exception of type class java.lang.RuntimeException
+at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:80)
+at org.testng.internal.Invoker.considerExceptions(Invoker.java:1140)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:615)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method status="PASS" signature="Test1(java.lang.String, int)[pri:0, instance:com.interface_autotest.autotest.parameter.DataProviderTest@100fc185]" name="Test1" duration-ms="1" started-at="2018-11-27T13:42:34Z" data-provider="methodData" finished-at="2018-11-27T13:42:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[zhangsan5]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[38]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- testFailed -->
+        <test-method status="PASS" signature="testSuccess()[pri:0, instance:com.interface_autotest.autotest.TimeOutTest@6d00a15d]" name="testSuccess" duration-ms="2012" started-at="2018-11-28T02:47:55Z" finished-at="2018-11-28T02:47:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method status="PASS" signature="Test1(java.lang.String, int)[pri:0, instance:com.interface_autotest.autotest.parameter.DataProviderTest@100fc185]" name="Test1" duration-ms="1" started-at="2018-11-27T13:42:34Z" data-provider="methodData" finished-at="2018-11-27T13:42:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[zhangsan6]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[39]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method status="PASS" signature="Test2(java.lang.String, int)[pri:0, instance:com.interface_autotest.autotest.parameter.DataProviderTest@100fc185]" name="Test2" duration-ms="0" started-at="2018-11-27T13:42:34Z" data-provider="methodData" finished-at="2018-11-27T13:42:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[zhangsan7]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[47]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test2 -->
-        <test-method status="PASS" signature="Test2(java.lang.String, int)[pri:0, instance:com.interface_autotest.autotest.parameter.DataProviderTest@100fc185]" name="Test2" duration-ms="1" started-at="2018-11-27T13:42:34Z" data-provider="methodData" finished-at="2018-11-27T13:42:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[zhangsan8]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[44]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test2 -->
-        <test-method status="PASS" signature="paramTest1(java.lang.String, int)[pri:0, instance:com.interface_autotest.autotest.parameter.DataProviderTest@100fc185]" name="paramTest1" duration-ms="0" started-at="2018-11-27T13:42:34Z" data-provider="data2" finished-at="2018-11-27T13:42:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[luojun]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[27]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- paramTest1 -->
-      </class> <!-- com.interface_autotest.autotest.parameter.DataProviderTest -->
+        </test-method> <!-- testSuccess -->
+      </class> <!-- com.interface_autotest.autotest.TimeOutTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

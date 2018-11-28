@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Nov 27 21:42:33 CST 2018</td>
+<td>Started on:</td><td>Wed Nov 28 10:47:52 CST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (55 ms)</td>
+<tr><td>Total time:</td><td>5 seconds (5081 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,68 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.interface_autotest.autotest.TimeOutTest.testFailed()'><b>testFailed</b><br>Test class: com.interface_autotest.autotest.TimeOutTest</td>
+<td><div><pre>org.testng.TestException: 
+Method TimeOutTest.testFailed()[pri:0, instance:com.interface_autotest.autotest.TimeOutTest@6d00a15d] should have thrown an exception of type class java.lang.RuntimeException
+	at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:80)
+	at org.testng.internal.Invoker.considerExceptions(Invoker.java:1140)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:615)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace3213500", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace3213500'><pre>org.testng.TestException: 
+Method TimeOutTest.testFailed()[pri:0, instance:com.interface_autotest.autotest.TimeOutTest@6d00a15d] should have thrown an exception of type class java.lang.RuntimeException
+	at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:80)
+	at org.testng.internal.Invoker.considerExceptions(Invoker.java:1140)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:615)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>com.interface_autotest.autotest.TimeOutTest@6d00a15d</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,35 +137,10 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.interface_autotest.autotest.parameter.DataProviderTest.Test1()'><b>Test1</b><br>Test class: com.interface_autotest.autotest.parameter.DataProviderTest<br>Parameters: zhangsan4, 37</td>
+<td title='com.interface_autotest.autotest.TimeOutTest.testSuccess()'><b>testSuccess</b><br>Test class: com.interface_autotest.autotest.TimeOutTest</td>
 <td></td>
-<td>0</td>
-<td>com.interface_autotest.autotest.parameter.DataProviderTest@100fc185</td></tr>
-<tr>
-<td title='com.interface_autotest.autotest.parameter.DataProviderTest.Test1()'><b>Test1</b><br>Test class: com.interface_autotest.autotest.parameter.DataProviderTest<br>Parameters: zhangsan5, 38</td>
-<td></td>
-<td>0</td>
-<td>com.interface_autotest.autotest.parameter.DataProviderTest@100fc185</td></tr>
-<tr>
-<td title='com.interface_autotest.autotest.parameter.DataProviderTest.Test1()'><b>Test1</b><br>Test class: com.interface_autotest.autotest.parameter.DataProviderTest<br>Parameters: zhangsan6, 39</td>
-<td></td>
-<td>0</td>
-<td>com.interface_autotest.autotest.parameter.DataProviderTest@100fc185</td></tr>
-<tr>
-<td title='com.interface_autotest.autotest.parameter.DataProviderTest.Test2()'><b>Test2</b><br>Test class: com.interface_autotest.autotest.parameter.DataProviderTest<br>Parameters: zhangsan7, 47</td>
-<td></td>
-<td>0</td>
-<td>com.interface_autotest.autotest.parameter.DataProviderTest@100fc185</td></tr>
-<tr>
-<td title='com.interface_autotest.autotest.parameter.DataProviderTest.Test2()'><b>Test2</b><br>Test class: com.interface_autotest.autotest.parameter.DataProviderTest<br>Parameters: zhangsan8, 44</td>
-<td></td>
-<td>0</td>
-<td>com.interface_autotest.autotest.parameter.DataProviderTest@100fc185</td></tr>
-<tr>
-<td title='com.interface_autotest.autotest.parameter.DataProviderTest.paramTest1()'><b>paramTest1</b><br>Test class: com.interface_autotest.autotest.parameter.DataProviderTest<br>Parameters: luojun, 27</td>
-<td></td>
-<td>0</td>
-<td>com.interface_autotest.autotest.parameter.DataProviderTest@100fc185</td></tr>
+<td>2</td>
+<td>com.interface_autotest.autotest.TimeOutTest@6d00a15d</td></tr>
 </table><p>
 </body>
 </html>
