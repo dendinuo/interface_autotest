@@ -1,0 +1,30 @@
+[
+{
+	"description":"request-headers test",
+	"request":{
+					"method":"post",
+					"uri":"/post/headers",
+					"headers":{
+									"content-type":"application/json",
+									"ram-param":"abcd1234"
+									},
+					"json":{
+							  "user":"luojun",
+							  "pwd":"123456"
+							 }				
+					},
+	"response":{
+					"status":"200",
+					"json":{
+							  "status":"1",
+							  "result":"success"
+							  },
+					"headers":{"Content-Type":"text/html;charset=gbk"}		  
+					}				
+}
+
+
+
+
+
+]

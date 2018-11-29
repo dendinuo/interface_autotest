@@ -1,0 +1,29 @@
+[
+{
+	"description":"不带参数的post请求",
+	"request":{
+					"uri":"/postdemo",
+					"method":"post"
+					},
+	"response":{
+					"text":"response successful!成功！",
+					"headers":{"Content-Type":"text/html;charset=gbk"}
+					}				
+},
+
+{
+	"description":"带参数的post请求",
+	"request":{
+					"uri":"/postdemopara",
+					"method":"post",
+					"forms":{
+								"user":"luojun","pwd":"123456"
+								}
+					},
+	"response":{
+					"text":"response successful!成功！",
+					"headers":{"Content-Type":"text/html;charset=gbk"}
+					}				
+}
+
+]

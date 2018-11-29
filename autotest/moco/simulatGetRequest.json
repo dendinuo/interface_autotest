@@ -1,0 +1,14 @@
+[
+{
+	"description":"不带参数的get请求",
+	"request":{
+					"uri":"/getdemo", "method":"get"
+					},
+	"response":{"text":"There is no parameter Get request.哈哈哈"}
+},
+{
+	"description":"带参数的get请求",
+	"request":{"uri":"/getdemopara", "method":"get","queries":{"name":"luojun","age":"18"}},
+	"response":{"text":"There is a parameter Get request.","headers":{"Content-Type":"text/html;charset=gbk"}}
+}
+]

@@ -112,8 +112,8 @@ public class ExtentTestNGIReporterListener implements IReporter {
         htmlReporter.config().setResourceCDN(ResourceCDN.EXTENTREPORTS);
 //以上为重点，解决css样式被墙的情况
         
-        htmlReporter.config().setDocumentTitle("api自动化测试报告");
-        htmlReporter.config().setReportName("api自动化测试报告");
+        htmlReporter.config().setDocumentTitle("我的API测试报告");
+        htmlReporter.config().setReportName("我的api测试报告");
         htmlReporter.config().setChartVisibilityOnOpen(true);
         htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
         htmlReporter.config().setTheme(Theme.STANDARD);

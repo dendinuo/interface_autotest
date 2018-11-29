@@ -1,0 +1,31 @@
+[
+{
+	"description":"redirect to ->baidu.com",
+	"request":{
+					"uri":"/redirect"
+					},
+	"redirectTo":"http://www.baidu.com"				
+	
+},
+
+{
+	"description":"redirect to ->my netstation",
+	"request":{
+					"uri":"/redirect/mynet"
+					},
+	"redirectTo":"/redirect/new"				
+},
+
+{
+	"description":"redirect to ->request",
+	"request":{
+					"uri":"/redirect/new"
+					},
+	"response":{"text":"redirect succssful!"}				
+					
+	
+}
+
+
+
+]
