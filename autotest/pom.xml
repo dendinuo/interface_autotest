@@ -31,5 +31,6 @@
   <modules>
     <module>extentreports</module>
     <module>testNG</module>
+    <module>httpclient</module>
   </modules>
 </project>
