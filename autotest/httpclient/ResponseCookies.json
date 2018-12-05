@@ -1,0 +1,11 @@
+[
+{
+	"description":"",
+	"request":{"uri":"/getcookies", "method":"get"},
+	"response":{ 
+						"cookies":{"login":"sdsdsdsa"}
+						,"text":"success"
+					 }
+}
+
+]

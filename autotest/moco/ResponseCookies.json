@@ -1,0 +1,13 @@
+[
+{
+	"description":"",
+	"request":{"uri":"/getcookies", "method":"get"},
+	"response":{ 
+						"headers":{"Content-Type":"text/html;charset=gbk"},
+						"cookies":{"login":"true" , "param":"ASDFQWER123","port":"8888"
+						}
+						,"text":"success uswdfhkldsuoprduqrgsdbn \nzheshi gengxinde 的的r"
+					 }
+}
+
+]

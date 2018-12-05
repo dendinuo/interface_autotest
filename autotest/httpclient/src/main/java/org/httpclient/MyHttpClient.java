@@ -18,8 +18,10 @@ public class MyHttpClient
 	@Test
     public  void test1(  ) throws IOException
     {
+		//存放结果
 		String result;
 		HttpGet get =new HttpGet("http://www.baidu.com");
+		//client用来执行get方法
 		HttpClient client=new DefaultHttpClient();
         HttpResponse response =client.execute(get);
         result = EntityUtils.toString(response.getEntity(),"utf-8" );

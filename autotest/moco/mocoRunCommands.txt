@@ -4,3 +4,4 @@ java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c simulatPostRequest
 java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c simulatCookiesRequest.json
 java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c simulatRequestHeaders.json
 java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c simulatRedirect.json
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c ResponseCookies.json
