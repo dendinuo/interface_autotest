@@ -12,6 +12,7 @@ import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.cookie.Cookie;
 import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.protocol.HTTP;
 import org.apache.http.util.EntityUtils;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -28,6 +29,7 @@ public class MyCookiesForGet {
 		url=bundle.getString("test.url");
 		//System.out.println(url);
 	}
+	@Deprecated
 	@Test
 	public void testGetCookies() throws ClientProtocolException, IOException {
 		String result;
@@ -47,14 +49,20 @@ public class MyCookiesForGet {
 		List<Cookie> cookieList = store.getCookies();
 		
 		for( Cookie cookie:cookieList ) {
-			/*String name = cookie.getName();
+			String name = cookie.getName();
 			String value =cookie.getValue();
 			System.out.println("cookie name="+name);
-			System.out.println("cookie value="+value);*/
+			System.out.println("cookie value="+value);
 		}
 	}
 	@Test(dependsOnMethods= {"testGetCookies"})
-	public void testGetWithCookies() {
+	public void testGetWithCookies() throws ClientProtocolException, IOException {
+		String uri = bundle.getString("test.get.with.cookies");
+		String testUrl = this.url+uri;
+		HttpGet get = new HttpGet(testUrl);
+		DefaultHttpClient client = new DefaultHttpClient();
+		client.setCookieStore(this.store);
+		HttpResponse response = client.execute(get);
 		
 	}
 	
