@@ -1,11 +1,19 @@
 [
 {
-	"description":"",
+	"description":"get",
 	"request":{"uri":"/getcookies", "method":"get"},
 	"response":{ 
-						"cookies":{"login":"sdsdsdsa"}
+						"cookies":{"login":"seccessful!"}
 						,"text":"success"
 					 }
+},
+
+{
+	"description":"post",
+	"request":{
+					"uri":"/postcookies",
+					"method":"post"
+					}		
 }
 
 ]

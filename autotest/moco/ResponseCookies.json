@@ -1,7 +1,7 @@
 [
 {
 	"description":"",
-	"request":{"uri":"/getcookies", "method":"get"},
+	"request":{"uri":"/get/with/cookies", "method":"get"},
 	"response":{ 
 						"headers":{"Content-Type":"text/html;charset=gbk"},
 						"cookies":{"login":"true" , "param":"ASDFQWER123","port":"8888"

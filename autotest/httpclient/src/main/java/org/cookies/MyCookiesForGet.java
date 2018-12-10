@@ -59,11 +59,19 @@ public class MyCookiesForGet {
 	public void testGetWithCookies() throws ClientProtocolException, IOException {
 		String uri = bundle.getString("test.get.with.cookies");
 		String testUrl = this.url+uri;
+		
 		HttpGet get = new HttpGet(testUrl);
 		DefaultHttpClient client = new DefaultHttpClient();
+		//设置cookies信息
 		client.setCookieStore(this.store);
 		HttpResponse response = client.execute(get);
+		//获取响应状态码
+		int statusCode = response.getStatusLine().getStatusCode();
+		System.out.println("状态码："+statusCode);
 		
+		if(statusCode==200) {
+			String result = EntityUtils.toString(response.getEntity());
+		}
 	}
 	
 	
