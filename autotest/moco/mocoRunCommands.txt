@@ -5,3 +5,5 @@ java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c simulatCookiesRequ
 java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c simulatRequestHeaders.json
 java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c simulatRedirect.json
 java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c ResponseCookies.json
+
+java -jar D:\MyGithub\interface_autotest\autotest\moco\moco-runner-0.11.0-standalone.jar http -p 8888 -c D:\MyGithub\interface_autotest\autotest\moco\simulatGetRequest.json

@@ -4,7 +4,9 @@
 	"request":{
 					"uri":"/getdemo", "method":"get"
 					},
-	"response":{"text":"There is no parameter Get request.哈哈哈"}
+	"response":{"text":"There is no parameter Get request.哈哈哈",
+						"headers":{"Content-Type":"text/html;charset=gbk"} 
+					}
 },
 {
 	"description":"带参数的get请求",
