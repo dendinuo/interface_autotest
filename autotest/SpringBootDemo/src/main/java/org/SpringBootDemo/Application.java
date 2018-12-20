@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 @SpringBootApplication
 @ComponentScan
+//@ComponentScan("com.xxx.xxx") 可指定扫描包的范围，默认 逐层向下 扫描全部
 public class Application {
 
 	public static void main(String[] args) {
