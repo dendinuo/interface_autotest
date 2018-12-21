@@ -4,9 +4,9 @@ import lombok.Data;
 
 @Data
 public class User {
-	private String username;
-	private String password;
-	private String name;
-	private String age;
-	private String sex;
+	private String name="luojun";
+	private String weight="75kg";
+	private String tall="176cm";
+	private String age="25";
+	private String sex="man";
 }

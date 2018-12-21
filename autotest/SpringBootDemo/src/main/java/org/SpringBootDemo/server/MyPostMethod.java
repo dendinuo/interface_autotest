@@ -3,7 +3,6 @@ package org.SpringBootDemo.server;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
 import org.SpringBootDemo.bean.User;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,8 +22,8 @@ public class MyPostMethod {
 	@RequestMapping(value="/login",method=RequestMethod.POST)
 	@ApiOperation(value="登录接口，成功后获取cookies信息。",httpMethod="POST")
 	public String login(HttpServletResponse response, 
-			@RequestParam(value="登录名username",required=true) String username,
-			@RequestParam(value="密码password",required=true) String password ) {
+			@RequestParam(value="UserName",required=true) String username,
+			@RequestParam(value="Pwd",required=true) String password ) {
 		if ( username.equals("admin") && password.equals("123456") ) {
 			cookie = new Cookie("login", "true");
 			response.addCookie(cookie);
@@ -34,15 +33,14 @@ public class MyPostMethod {
 	}
 	
 	@RequestMapping(value="/getUserList",method=RequestMethod.POST)
-	@ApiOperation(value="获取用户列表",httpMethod="post")
+	@ApiOperation(value="获取用户列表",httpMethod="POST")
 	public String getUserList( HttpServletRequest request,
 										@RequestBody User usr) {
 		Cookie[] cookies = request.getCookies();
 		User user;
 		for ( Cookie i : cookies ) {
-			if( i.getName().equals("login") && i.getValue().equals("true") 
-					&& usr.getUsername()=="admin"
-					&& usr.getPassword()=="123456") {
+			if( i.getName().equals("login") && i.getValue().equals("true") ) 
+			{
 				user = new User();
 				user.setName("luojun");
 				user.setAge("18");
