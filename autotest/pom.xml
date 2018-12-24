@@ -44,6 +44,6 @@
     <module>testNG</module>
     <module>httpclient</module>
     <module>SpringBootDemo</module>
-   
+    <module>MybatisStudy</module>
   </modules>
 </project>
