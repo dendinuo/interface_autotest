@@ -1,2 +1,22 @@
 server:
-	port:8888
+ port: 8888
+
+logging:
+ path: logs
+ file: mylog.log
+
+spring:
+ application:
+  name: mytest
+ datasource:
+  driver-class-name: com.mysql.jdbc.Driver
+  url: jdbc:mysql://127.0.0.1:3306/springtest    
+  username: root
+  password: root
+
+mybatis:
+  type-aliases-package: org.MybatisStudy
+  mapper-locations:
+   - mapper/*
+
+   
