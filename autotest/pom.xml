@@ -23,15 +23,11 @@
 
   <dependencies>
     
-				<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+
 		<dependency>
 		    <groupId>org.testng</groupId>
 		    <artifactId>testng</artifactId>
 		    <version>6.14.3</version>
-<<<<<<< HEAD
-=======
-		 
->>>>>>> 1f20b8491978f67db0ce1f30ad920d9ebd98bb77
 		</dependency>
 		    	<!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
 		<dependency>
@@ -48,5 +44,6 @@
     <module>httpclient</module>
     <module>SpringBootDemo</module>
     <module>MybatisStudy</module>
+    <module>MybatisCase</module>
   </modules>
 </project>

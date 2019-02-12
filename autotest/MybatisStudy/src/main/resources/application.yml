@@ -15,7 +15,7 @@ spring:
   password: root
 
 mybatis:
-  type-aliases-package: org.MybatisStudy
+  type-aliases-package: org.MybatisStudy.model
   mapper-locations:
    - mapper/*
 
