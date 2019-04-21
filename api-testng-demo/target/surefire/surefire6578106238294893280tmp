@@ -1,0 +1,5 @@
+#surefire
+#Sun Apr 21 22:12:05 CST 2019
+user.dir=D\:\\MyGithub\\Local\\api-testng-demo
+localRepository=D\:\\Application\\apache-maven-3.5.3\\local\\repo
+basedir=D\:\\MyGithub\\Local\\api-testng-demo

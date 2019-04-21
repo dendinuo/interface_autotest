@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="7" ignored="0" total="7" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="用户管理系统测试套件" duration-ms="3899" started-at="2019-04-21T14:12:06Z" finished-at="2019-04-21T14:12:09Z">
+    <groups>
+      <group name="loginTrue">
+        <method signature="LoginTest.loginTrue()[pri:0, instance:com.course.cases.LoginTest@7c75222b]" name="loginTrue" class="com.course.cases.LoginTest"/>
+      </group> <!-- loginTrue -->
+      <group name="loginFalse">
+        <method signature="LoginTest.loginFalse()[pri:0, instance:com.course.cases.LoginTest@7c75222b]" name="loginFalse" class="com.course.cases.LoginTest"/>
+      </group> <!-- loginFalse -->
+    </groups>
+    <test name="用户管理系统测试用例" duration-ms="3899" started-at="2019-04-21T14:12:06Z" finished-at="2019-04-21T14:12:09Z">
+      <class name="com.course.cases.UpdateUserInfoTest">
+        <test-method status="FAIL" signature="updateUserInfo()[pri:0, instance:com.course.cases.UpdateUserInfoTest@48140564]" name="updateUserInfo" duration-ms="919" depends-on-groups="loginTrue" started-at="2019-04-21T22:12:07Z" description="更改用户信息" finished-at="2019-04-21T22:12:08Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one.
+	at org.apache.http.impl.conn.SingleClientConnManager.getConnection(SingleClientConnManager.java:216)
+	at org.apache.http.impl.conn.SingleClientConnManager$1.getConnection(SingleClientConnManager.java:190)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:401)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.course.cases.UpdateUserInfoTest.getResult(UpdateUserInfoTest.java:68)
+	at com.course.cases.UpdateUserInfoTest.updateUserInfo(UpdateUserInfoTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserInfo -->
+        <test-method status="FAIL" signature="deleteUser()[pri:0, instance:com.course.cases.UpdateUserInfoTest@48140564]" name="deleteUser" duration-ms="880" depends-on-groups="loginTrue" started-at="2019-04-21T22:12:08Z" description="删除用户信息" finished-at="2019-04-21T22:12:09Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one.
+	at org.apache.http.impl.conn.SingleClientConnManager.getConnection(SingleClientConnManager.java:216)
+	at org.apache.http.impl.conn.SingleClientConnManager$1.getConnection(SingleClientConnManager.java:190)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:401)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.course.cases.UpdateUserInfoTest.getResult(UpdateUserInfoTest.java:68)
+	at com.course.cases.UpdateUserInfoTest.deleteUser(UpdateUserInfoTest.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- com.course.cases.UpdateUserInfoTest -->
+      <class name="com.course.cases.LoginTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.course.cases.LoginTest@7c75222b]" name="beforeTest" is-config="true" duration-ms="45" started-at="2019-04-21T22:12:06Z" description="测试准备工作，获取HttpClient对象" finished-at="2019-04-21T22:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="loginFalse()[pri:0, instance:com.course.cases.LoginTest@7c75222b]" name="loginFalse" duration-ms="1817" started-at="2019-04-21T22:12:06Z" description="用户登陆失败接口测试" finished-at="2019-04-21T22:12:07Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one.
+	at org.apache.http.impl.conn.SingleClientConnManager.getConnection(SingleClientConnManager.java:216)
+	at org.apache.http.impl.conn.SingleClientConnManager$1.getConnection(SingleClientConnManager.java:190)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:401)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.course.cases.LoginTest.getResult(LoginTest.java:74)
+	at com.course.cases.LoginTest.loginFalse(LoginTest.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFalse -->
+        <test-method status="FAIL" signature="loginTrue()[pri:0, instance:com.course.cases.LoginTest@7c75222b]" name="loginTrue" duration-ms="3829" started-at="2019-04-21T22:12:06Z" description="用户登陆成功接口测试" finished-at="2019-04-21T22:12:09Z">
+          <exception class="org.apache.http.conn.HttpHostConnectException">
+            <message>
+              <![CDATA[Connection to http://localhost:8889 refused]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8889 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.course.cases.LoginTest.getResult(LoginTest.java:74)
+	at com.course.cases.LoginTest.loginTrue(LoginTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 22 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.apache.http.conn.HttpHostConnectException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTrue -->
+      </class> <!-- com.course.cases.LoginTest -->
+      <class name="com.course.cases.GetUserInfoTest">
+        <test-method status="FAIL" signature="getUserInfo()[pri:0, instance:com.course.cases.GetUserInfoTest@1d251891]" name="getUserInfo" duration-ms="918" depends-on-groups="loginTrue" started-at="2019-04-21T22:12:07Z" description="获取userId为1的用户信息" finished-at="2019-04-21T22:12:08Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one.
+	at org.apache.http.impl.conn.SingleClientConnManager.getConnection(SingleClientConnManager.java:216)
+	at org.apache.http.impl.conn.SingleClientConnManager$1.getConnection(SingleClientConnManager.java:190)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:401)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.course.cases.GetUserInfoTest.getJsonResult(GetUserInfoTest.java:57)
+	at com.course.cases.GetUserInfoTest.getUserInfo(GetUserInfoTest.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserInfo -->
+      </class> <!-- com.course.cases.GetUserInfoTest -->
+      <class name="com.course.cases.GetUserInfoListTest">
+        <test-method status="FAIL" signature="getUserListInfo()[pri:0, instance:com.course.cases.GetUserInfoListTest@58ceff1]" name="getUserListInfo" duration-ms="880" depends-on-groups="loginTrue" started-at="2019-04-21T22:12:08Z" description="筛选性别为男的用户信息" finished-at="2019-04-21T22:12:09Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one.
+	at org.apache.http.impl.conn.SingleClientConnManager.getConnection(SingleClientConnManager.java:216)
+	at org.apache.http.impl.conn.SingleClientConnManager$1.getConnection(SingleClientConnManager.java:190)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:401)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.course.cases.GetUserInfoListTest.getJsonResult(GetUserInfoListTest.java:63)
+	at com.course.cases.GetUserInfoListTest.getUserListInfo(GetUserInfoListTest.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserListInfo -->
+      </class> <!-- com.course.cases.GetUserInfoListTest -->
+      <class name="com.course.cases.AddUserTest">
+        <test-method status="FAIL" signature="addUser()[pri:0, instance:com.course.cases.AddUserTest@4c203ea1]" name="addUser" duration-ms="919" depends-on-groups="loginTrue" started-at="2019-04-21T22:12:07Z" description="添加用户接口测试" finished-at="2019-04-21T22:12:08Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one.
+	at org.apache.http.impl.conn.SingleClientConnManager.getConnection(SingleClientConnManager.java:216)
+	at org.apache.http.impl.conn.SingleClientConnManager$1.getConnection(SingleClientConnManager.java:190)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:401)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.course.cases.AddUserTest.getResult(AddUserTest.java:62)
+	at com.course.cases.AddUserTest.addUser(AddUserTest.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser -->
+      </class> <!-- com.course.cases.AddUserTest -->
+    </test> <!-- 用户管理系统测试用例 -->
+  </suite> <!-- 用户管理系统测试套件 -->
+</testng-results>

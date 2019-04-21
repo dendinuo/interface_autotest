@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="7" failures="7" name="TestSuite" time="5.082" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_191\bin"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\MyGithub\Local\api-testng-demo"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="D:\MyGithub\Local\api-testng-demo"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_191\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="D:\MyGithub\Local\api-testng-demo\target\surefire\surefirebooter2132198505436863709.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\16510\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Application\Git\cmd;C:\Program Files\Java\jdk1.8.0_121\bin;D:\Application\apache-maven-3.5.3\bin;C:\Program Files\Java\jdk1.8.0_121\jre\bin;;C:\WINDOWS\System32\OpenSSH\;C:\Users\16510\AppData\Local\Microsoft\WindowsApps;;D:\Application\eclipse;;."/>
+    <property name="surefire.test.class.path" value="D:\MyGithub\Local\api-testng-demo\target\test-classes;D:\MyGithub\Local\api-testng-demo\target\classes;D:\Application\apache-maven-3.5.3\local\repo\org\apache\httpcomponents\httpclient\4.1.2\httpclient-4.1.2.jar;D:\Application\apache-maven-3.5.3\local\repo\org\apache\httpcomponents\httpcore\4.1.2\httpcore-4.1.2.jar;D:\Application\apache-maven-3.5.3\local\repo\commons-codec\commons-codec\1.4\commons-codec-1.4.jar;D:\Application\apache-maven-3.5.3\local\repo\org\json\json\20170516\json-20170516.jar;D:\Application\apache-maven-3.5.3\local\repo\org\mybatis\mybatis\3.4.4\mybatis-3.4.4.jar;D:\Application\apache-maven-3.5.3\local\repo\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar;D:\Application\apache-maven-3.5.3\local\repo\org\projectlombok\lombok\1.16.14\lombok-1.16.14.jar;D:\Application\apache-maven-3.5.3\local\repo\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;D:\Application\apache-maven-3.5.3\local\repo\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;D:\Application\apache-maven-3.5.3\local\repo\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;D:\Application\apache-maven-3.5.3\local\repo\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;D:\Application\apache-maven-3.5.3\local\repo\org\mongodb\bson\3.0.4\bson-3.0.4.jar;D:\Application\apache-maven-3.5.3\local\repo\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;D:\Application\apache-maven-3.5.3\local\repo\com\vimalselvam\testng-extentsreport\1.3.1\testng-extentsreport-1.3.1.jar;D:\Application\apache-maven-3.5.3\local\repo\com\google\guava\guava\20.0\guava-20.0.jar;D:\Application\apache-maven-3.5.3\local\repo\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;D:\Application\apache-maven-3.5.3\local\repo\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;D:\Application\apache-maven-3.5.3\local\repo\org\testng\testng\6.10\testng-6.10.jar;D:\Application\apache-maven-3.5.3\local\repo\com\beust\jcommander\1.48\jcommander-1.48.jar;D:\Application\apache-maven-3.5.3\local\repo\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\Application\apache-maven-3.5.3\local\repo\org\freemarker\freemarker\2.3.28\freemarker-2.3.28.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\16510"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="luojun"/>
+    <property name="java.class.path" value="D:\MyGithub\Local\api-testng-demo\target\test-classes;D:\MyGithub\Local\api-testng-demo\target\classes;D:\Application\apache-maven-3.5.3\local\repo\org\apache\httpcomponents\httpclient\4.1.2\httpclient-4.1.2.jar;D:\Application\apache-maven-3.5.3\local\repo\org\apache\httpcomponents\httpcore\4.1.2\httpcore-4.1.2.jar;D:\Application\apache-maven-3.5.3\local\repo\commons-codec\commons-codec\1.4\commons-codec-1.4.jar;D:\Application\apache-maven-3.5.3\local\repo\org\json\json\20170516\json-20170516.jar;D:\Application\apache-maven-3.5.3\local\repo\org\mybatis\mybatis\3.4.4\mybatis-3.4.4.jar;D:\Application\apache-maven-3.5.3\local\repo\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar;D:\Application\apache-maven-3.5.3\local\repo\org\projectlombok\lombok\1.16.14\lombok-1.16.14.jar;D:\Application\apache-maven-3.5.3\local\repo\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;D:\Application\apache-maven-3.5.3\local\repo\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;D:\Application\apache-maven-3.5.3\local\repo\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;D:\Application\apache-maven-3.5.3\local\repo\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;D:\Application\apache-maven-3.5.3\local\repo\org\mongodb\bson\3.0.4\bson-3.0.4.jar;D:\Application\apache-maven-3.5.3\local\repo\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;D:\Application\apache-maven-3.5.3\local\repo\com\vimalselvam\testng-extentsreport\1.3.1\testng-extentsreport-1.3.1.jar;D:\Application\apache-maven-3.5.3\local\repo\com\google\guava\guava\20.0\guava-20.0.jar;D:\Application\apache-maven-3.5.3\local\repo\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;D:\Application\apache-maven-3.5.3\local\repo\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;D:\Application\apache-maven-3.5.3\local\repo\org\testng\testng\6.10\testng-6.10.jar;D:\Application\apache-maven-3.5.3\local\repo\com\beust\jcommander\1.48\jcommander-1.48.jar;D:\Application\apache-maven-3.5.3\local\repo\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\Application\apache-maven-3.5.3\local\repo\org\freemarker\freemarker\2.3.28\freemarker-2.3.28.jar;"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_191"/>
+    <property name="sun.java.command" value="D:\MyGithub\Local\api-testng-demo\target\surefire\surefirebooter2132198505436863709.jar D:\MyGithub\Local\api-testng-demo\target\surefire\surefire5016562641906922582tmp D:\MyGithub\Local\api-testng-demo\target\surefire\surefire6578106238294893280tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_191\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_191\lib\resources.jar;C:\Program Files\Java\jre1.8.0_191\lib\rt.jar;C:\Program Files\Java\jre1.8.0_191\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_191\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_191\lib\jce.jar;C:\Program Files\Java\jre1.8.0_191\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_191\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_191\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="D:\Application\apache-maven-3.5.3\local\repo"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.course.cases.LoginTest" name="loginFalse" time="1.821">
+    <failure message="Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one." type="java.lang.IllegalStateException">java.lang.IllegalStateException: Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one.
+	at org.apache.http.impl.conn.SingleClientConnManager.getConnection(SingleClientConnManager.java:216)
+	at org.apache.http.impl.conn.SingleClientConnManager$1.getConnection(SingleClientConnManager.java:190)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:401)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.course.cases.LoginTest.getResult(LoginTest.java:74)
+	at com.course.cases.LoginTest.loginFalse(LoginTest.java:55)
+</failure>
+    <system-out>@HL
+@HL-------------------------------------------------------
+@HL T E S T S
+@HL-------------------------------------------------------
+@SLRunning TestSuite
+[TestNGContentHandler] [WARN] It is strongly recommended to add &quot;&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot; &gt;&quot; at the top of your file, otherwise TestNG may fail or not work as expected.
+LoginCase(id=2, userName=zhangsan, password=111222, expected=登陆失败！)
+http://localhost:8889/v1/login
+LoginCase(id=1, userName=admin, password=abcd1234, expected=登陆成功！)
+http://localhost:8889/v1/login
+</system-out>
+  </testcase>
+  <testcase classname="com.course.cases.GetUserInfoTest" name="getUserInfo" time="0.918">
+    <failure message="Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one." type="java.lang.IllegalStateException">java.lang.IllegalStateException: Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one.
+	at org.apache.http.impl.conn.SingleClientConnManager.getConnection(SingleClientConnManager.java:216)
+	at org.apache.http.impl.conn.SingleClientConnManager$1.getConnection(SingleClientConnManager.java:190)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:401)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.course.cases.GetUserInfoTest.getJsonResult(GetUserInfoTest.java:57)
+	at com.course.cases.GetUserInfoTest.getUserInfo(GetUserInfoTest.java:32)
+</failure>
+    <system-out>GetUserInfoCase(userId=1, expected=getUserInfo)
+http://localhost:8889/v1/getUserInfo
+AddUserCase(userName=newUser, password=123456, sex=1, age=18, permission=1, isDelete=0, expected=true, userId=99)
+http://localhost:8889/v1/addUser
+</system-out>
+  </testcase>
+  <testcase classname="com.course.cases.UpdateUserInfoTest" name="updateUserInfo" time="0.919">
+    <failure message="Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one." type="java.lang.IllegalStateException">java.lang.IllegalStateException: Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one.
+	at org.apache.http.impl.conn.SingleClientConnManager.getConnection(SingleClientConnManager.java:216)
+	at org.apache.http.impl.conn.SingleClientConnManager$1.getConnection(SingleClientConnManager.java:190)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:401)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.course.cases.UpdateUserInfoTest.getResult(UpdateUserInfoTest.java:68)
+	at com.course.cases.UpdateUserInfoTest.updateUserInfo(UpdateUserInfoTest.java:27)
+</failure>
+  </testcase>
+  <testcase classname="com.course.cases.AddUserTest" name="addUser" time="0.92">
+    <failure message="Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one." type="java.lang.IllegalStateException">java.lang.IllegalStateException: Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one.
+	at org.apache.http.impl.conn.SingleClientConnManager.getConnection(SingleClientConnManager.java:216)
+	at org.apache.http.impl.conn.SingleClientConnManager$1.getConnection(SingleClientConnManager.java:190)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:401)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.course.cases.AddUserTest.getResult(AddUserTest.java:62)
+	at com.course.cases.AddUserTest.addUser(AddUserTest.java:31)
+</failure>
+  </testcase>
+  <testcase classname="com.course.cases.GetUserInfoListTest" name="getUserListInfo" time="0.881">
+    <failure message="Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one." type="java.lang.IllegalStateException">java.lang.IllegalStateException: Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one.
+	at org.apache.http.impl.conn.SingleClientConnManager.getConnection(SingleClientConnManager.java:216)
+	at org.apache.http.impl.conn.SingleClientConnManager$1.getConnection(SingleClientConnManager.java:190)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:401)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.course.cases.GetUserInfoListTest.getJsonResult(GetUserInfoListTest.java:63)
+	at com.course.cases.GetUserInfoListTest.getUserListInfo(GetUserInfoListTest.java:30)
+</failure>
+    <system-out>UpdateUserInfoCase(id=2, userId=7, userName=, sex=null, age=null, permission=null, isDelete=1, expected=getUpdateUserInfo)
+http://localhost:8889/v1/updateUserInfo
+GetUserListCase(userName=zhangsan, age=19, sex=0, expected=getUserList)
+http://localhost:8889/v1/getUserInfo
+</system-out>
+  </testcase>
+  <testcase classname="com.course.cases.UpdateUserInfoTest" name="deleteUser" time="0.881">
+    <failure message="Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one." type="java.lang.IllegalStateException">java.lang.IllegalStateException: Invalid use of SingleClientConnManager: connection still allocated.
+Make sure to release the connection before allocating another one.
+	at org.apache.http.impl.conn.SingleClientConnManager.getConnection(SingleClientConnManager.java:216)
+	at org.apache.http.impl.conn.SingleClientConnManager$1.getConnection(SingleClientConnManager.java:190)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:401)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.course.cases.UpdateUserInfoTest.getResult(UpdateUserInfoTest.java:68)
+	at com.course.cases.UpdateUserInfoTest.deleteUser(UpdateUserInfoTest.java:44)
+</failure>
+  </testcase>
+  <testcase classname="com.course.cases.LoginTest" name="loginTrue" time="1.083">
+    <failure message="Connection to http://localhost:8889 refused" type="org.apache.http.conn.HttpHostConnectException">org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8889 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:732)
+	at com.course.cases.LoginTest.getResult(LoginTest.java:74)
+	at com.course.cases.LoginTest.loginTrue(LoginTest.java:41)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 22 more
+</failure>
+  </testcase>
+</testsuite>
