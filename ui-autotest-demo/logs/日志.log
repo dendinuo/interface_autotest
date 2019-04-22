@@ -1,0 +1,24 @@
+2019-04-22 17:20:32.449 [main] INFO  com.demo.UiTestDemo - 浏览器驱动加载成功。
+2019-04-22 17:20:39.774 [main] INFO  com.demo.UiTestDemo - [INFO] 登录页加载成功
+2019-04-22 17:20:40.973 [main] INFO  com.demo.UiTestDemo - [INFO] 已输入用户名
+2019-04-22 17:20:41.644 [main] INFO  com.demo.UiTestDemo - [INFO] 已输入密码
+2019-04-22 17:20:42.758 [main] INFO  com.demo.UiTestDemo - [INFO] 点击登录
+2019-04-22 17:20:48.991 [main] INFO  com.demo.UiTestDemo - [INFO] 登录成功，进入商城首页
+2019-04-22 17:20:52.073 [main] INFO  com.demo.UiTestDemo - [INFO] 已获取滚轮元素，下拉页面
+2019-04-22 17:20:56.579 [main] INFO  com.demo.UiTestDemo - [INFO] 已点击所选商品
+2019-04-22 17:20:58.742 [main] INFO  com.demo.UiTestDemo - [INFO] 点击加入购物车
+2019-04-22 17:21:00.471 [main] INFO  com.demo.UiTestDemo - [INFO] 返回购物页
+2019-04-22 17:21:14.537 [main] INFO  com.demo.UiTestDemo - [INFO] 已输入搜索框
+2019-04-22 17:21:22.228 [main] INFO  com.demo.UiTestDemo - [INFO] 找到目标元素，并点击
+2019-04-22 17:21:24.882 [main] INFO  com.demo.UiTestDemo - [INFO] 进入新页面
+2019-04-22 17:21:28.643 [main] INFO  com.demo.UiTestDemo - [INFO] 找到目标元素，并点击
+2019-04-22 17:21:29.192 [main] INFO  com.demo.UiTestDemo - [INFO] 进入结账登录页面
+2019-04-22 17:21:29.386 [main] INFO  com.demo.UiTestDemo - [INFO] 已输入用户邮箱/用户名
+2019-04-22 17:21:30.549 [main] INFO  com.demo.UiTestDemo - [INFO] 已输入密码
+2019-04-22 17:21:32.402 [main] INFO  com.demo.UiTestDemo - [INFO] 已点击登录
+2019-04-22 17:21:33.443 [main] INFO  com.demo.UiTestDemo - [INFO] 登录成功，进入个人页面
+2019-04-22 17:21:37.072 [main] INFO  com.demo.UiTestDemo - [INFO] 进入结账、付款页面
+2019-04-22 17:21:45.309 [main] INFO  com.demo.UiTestDemo - [INFO] 个人信息输入完成
+2019-04-22 17:21:46.381 [main] INFO  com.demo.UiTestDemo - [INFO] 已提交付款信息
+2019-04-22 17:21:52.392 [main] INFO  com.demo.UiTestDemo - [INFO] 订单流程完成
+2019-04-22 17:21:53.056 [main] INFO  com.demo.UiTestDemo - 测试完成，用时80s

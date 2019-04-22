@@ -1,0 +1,15 @@
+2019-04-22 17:21:00,471 INFO  c.d.UiTestDemo [main] [INFO] 返回购物页
+2019-04-22 17:21:14,537 INFO  c.d.UiTestDemo [main] [INFO] 已输入搜索框
+2019-04-22 17:21:22,228 INFO  c.d.UiTestDemo [main] [INFO] 找到目标元素，并点击
+2019-04-22 17:21:24,882 INFO  c.d.UiTestDemo [main] [INFO] 进入新页面
+2019-04-22 17:21:28,643 INFO  c.d.UiTestDemo [main] [INFO] 找到目标元素，并点击
+2019-04-22 17:21:29,192 INFO  c.d.UiTestDemo [main] [INFO] 进入结账登录页面
+2019-04-22 17:21:29,386 INFO  c.d.UiTestDemo [main] [INFO] 已输入用户邮箱/用户名
+2019-04-22 17:21:30,549 INFO  c.d.UiTestDemo [main] [INFO] 已输入密码
+2019-04-22 17:21:32,402 INFO  c.d.UiTestDemo [main] [INFO] 已点击登录
+2019-04-22 17:21:33,443 INFO  c.d.UiTestDemo [main] [INFO] 登录成功，进入个人页面
+2019-04-22 17:21:37,072 INFO  c.d.UiTestDemo [main] [INFO] 进入结账、付款页面
+2019-04-22 17:21:45,309 INFO  c.d.UiTestDemo [main] [INFO] 个人信息输入完成
+2019-04-22 17:21:46,381 INFO  c.d.UiTestDemo [main] [INFO] 已提交付款信息
+2019-04-22 17:21:52,392 INFO  c.d.UiTestDemo [main] [INFO] 订单流程完成
+2019-04-22 17:21:53,056 INFO  c.d.UiTestDemo [main] 测试完成，用时80s

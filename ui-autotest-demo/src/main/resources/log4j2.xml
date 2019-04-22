@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<Configuration status="warn" monitorInterval="600">
+
+<!-- 定义输出器appender -->
+    <Appenders>  
+        <Console name="Console" target="SYSTEM_OUT"  >
+            <PatternLayout pattern="%d [%t] %-5level %logger{36} %msg%n" />  
+        </Console>
+        
+        <File name="local_log" fileName="logs/日志.log" append="false">
+            <PatternLayout 
+                pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+        
+        <RollingFile name="RollingLogFile" fileName="logs/RollingLogFile_log.log"  filePattern="logs/$${date:yyyy-MM}/RollingFile_log-%d{MM-dd-HH-mm}-%i.log.gz">
+          <PatternLayout>
+            <Pattern>%d %-5level %c{1.} [%t] %m%n</Pattern>
+          </PatternLayout>
+          <Policies>
+            <TimeBasedTriggeringPolicy interval="1"/>
+            <SizeBasedTriggeringPolicy size="100 MB"/>
+          </Policies>
+        </RollingFile>    
+    </Appenders>
+    
+    <Loggers>
+        <Root level="all">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="local_log" level="all" />
+            <AppenderRef ref="RollingLogFile" level="all" />
+        </Root>      
+    </Loggers>
+</Configuration>
