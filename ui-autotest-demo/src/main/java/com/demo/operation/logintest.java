@@ -19,7 +19,8 @@ public class logintest {
 		Thread.sleep(2000); 
 		UiTestDemo.logger.info("[INFO] 登录页加载成功");
 		driver.findElement(By.xpath("//*[@id=\"particles-js\"]/div[1]/div[2]/div[2]/input")).clear();Thread.sleep(500);
-		driver.findElement(By.xpath("//*[@id=\"particles-js\"]/div[1]/div[2]/div[2]/input")).sendKeys("admin");Thread.sleep(500);
+		driver.findElement(By.xpath("//*[@id=\"particles-js\"]/div[1]/div[2]/div[2]/input")).sendKeys
+		("admin");Thread.sleep(500);
 		UiTestDemo.logger.info("[INFO] 已输入用户名");
 		driver.findElement(By.xpath("//*[@id=\"particles-js\"]/div[1]/div[3]/div[2]/input")).clear();Thread.sleep(500);
 		driver.findElement(By.xpath("//*[@id=\"particles-js\"]/div[1]/div[3]/div[2]/input")).sendKeys("123456");

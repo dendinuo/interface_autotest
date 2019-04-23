@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="测试套件"  >
+<!-- parallel= "methods"、"tests"、"classes" -->
+    <test name="chrome测试">
+    	<parameter name="browser" value="chrome"/>
+        <classes>
+        	<!-- <parameter name="browser" value="chrome"/> -->
+            <class name="com.demo.test.ParametersTest">
+            
+                <methods>
+                			
+                			<include name = "testLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+<!--     <listeners>
+        <listener class-name="com.course.config.ExtentTestNGIReporterListener"/>
+
+    </listeners> -->
+</suite>

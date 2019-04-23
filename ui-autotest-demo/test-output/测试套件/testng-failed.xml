@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [测试套件]">
+  <test name="chrome测试(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.demo.test.ParametersTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- com.demo.test.ParametersTest -->
+    </classes>
+  </test> <!-- chrome测试(failed) -->
+</suite> <!-- Failed suite [测试套件] -->
